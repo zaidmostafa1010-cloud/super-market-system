@@ -1,0 +1,34 @@
+[
+{
+"id": 1,
+"name-ar": "لبن",
+"name-en": "milk",
+"category": :"Dairy",
+"price" : 35,
+"stock":50
+},
+{
+"id": 2,
+"name-ar": "سكر",
+"name-en": "sugar",
+"category": :"grocery",
+"price" : 30,
+"stock":40
+},
+{
+  "id": 3,
+"name-ar": "أرز",
+"name-en": "rice",
+"category": :"grocery",
+"price" : 40,
+"stock":60
+},
+{
+  "id": 4,
+"name-ar": "زيت",
+"name-en": "oil",
+"category": :"oils",
+"price" : 65,
+"stock":25
+},
+]
