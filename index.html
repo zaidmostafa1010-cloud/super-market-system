@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Market</title>
+    <link rel="stylesheet" herf="style.css">
+    <script type="module" src="app.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo"🛒 Suoer Market></div>
+        <div class="header-actions">
+            <button id="languageBtn">English</button>
+            <button id="cartBtn">
+              🛍️  <span id="cartCount">0</span>
+            </button>
+        </div>
+    </header>
+    <section class="hero">
+        <h1 id="heroTitle">كل أحتياجات بيتك في مكان واحد</h1>
+        <p id="heroText">تسوق منتجاتك اليومية بسهوله وبأفضل سعر </p>
+        <input id="searchlnput" type="text" placeholder="أبحث عن منتج...">
+    </section>
+    <main>
+        <h2 id="productsTitle">منتجاتنا</h2>
+    <div id="productsGrid" class="products-grid">جاري تحميل المنتجات...</div>
+    <section id="cartSection" class="cart-section">
+        <h2 id="cartTitle">سلة المشتريات</h2>
+        <div id="cartitems"></div>
+        <h3>
+            <spen id="totalLabel">الإجمالي:</spen>
+            <span id="cartTotal">0</span>EGP
+        </h3>
+        <h2 id="checkoutTitle">بيانات التوصيل </h2>
+        <form id="checkoutForm">
+            <input type="text" id="customerName" placeholder="الأسم بالكامل" required>
+            <input type="tel" id="customerPhone" placeholder="رقم الهاتف" required>
+            <textarea id="customerAddress" placeholder="عنوان التوصيل بالتفصيل" required>
+                <p id="paymantText">طريقة الدفع:الدفع عند الاستلام</p>
+                <button type="submit" id="orderBtn">تأكيد الطلب</button>
+        </form>
+        </h2>
+    </section>
+    <section id="invoiceSection" hidden>
+        <div id="invoiceContent"></div>
+        <button onclick="window.print()">طباعة الفاتورة</button>
+    </section>
+    </main>
+    <footer>
+        <p>© 2026 Super Market - All Rights Reserved</p>
+    </footer>
+</body>
+</html>
