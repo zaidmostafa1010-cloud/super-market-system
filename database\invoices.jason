@@ -1,0 +1,26 @@
+[
+  {
+    "invoice_id": 1,
+    "sale_id": 1,
+    "customer": "Ahmed",
+    "date": "2026-11-27",
+    "items": [
+      {
+        "product": "Milk",
+        "quantity": 1,
+        "price": 35
+      },
+      {
+        "product": "Sugar",
+        "quantity": 1,
+        "price": 30
+      },
+      {
+        "product": "Rice",
+        "quantity": 1,
+        "price": 40
+      }
+    ],
+    "total": 105
+  }
+]
