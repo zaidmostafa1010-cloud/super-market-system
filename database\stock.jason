@@ -1,0 +1,26 @@
+[
+  {
+    "product_id": 1,
+    "product_name": "Milk",
+    "quantity": 50,
+    "minimum_stock": 10
+  },
+  {
+    "product_id": 2,
+    "product_name": "Sugar",
+    "quantity": 40,
+    "minimum_stock": 10
+  },
+  {
+    "product_id": 3,
+    "product_name": "Rice",
+    "quantity": 60,
+    "minimum_stock": 15
+  },
+  {
+    "product_id": 4,
+    "product_name": "Oil",
+    "quantity": 25,
+    "minimum_stock": 5
+  }
+]
