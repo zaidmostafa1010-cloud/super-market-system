@@ -1,0 +1,8 @@
+[
+  {
+    "sale_id":1,
+    "order_id":1,
+    "customer":"zaid",
+    "date": "2026-11-28",
+    "total":105,
+    "payment_method":"casah"
